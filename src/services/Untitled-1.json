@@ -1,0 +1,385 @@
+{
+    "availableRates": [
+        {
+            "baseCharge": {
+                "currency": "CAD",
+                "amount": 3452
+            },
+            "surcharges": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 219
+                    },
+                    "code": "RESIDENTIAL",
+                    "name": "RESIDENTIAL"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 250
+                    },
+                    "code": "INSURANCE",
+                    "name": "Insurance"
+                }
+            ],
+            "taxes": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 196
+                    },
+                    "code": "TAX",
+                    "name": "GST"
+                }
+            ],
+            "totalCharge": {
+                "currency": "CAD",
+                "amount": 4117
+            },
+            "totalBeforeTaxes": {
+                "currency": "CAD",
+                "amount": 3921
+            },
+            "exchangeRate": 0.0000,
+            "carrierId": "14",
+            "carrierName": "Canpar",
+            "serviceId": "1",
+            "serviceName": "Ground",
+            "transitDays": 4,
+            "cutoffTime": "14:30",
+            "accessTimeInterval": "2:00",
+            "quoteId": "17f0947adca31ddb175fc109372beebe"
+        },
+        {
+            "baseCharge": {
+                "currency": "CAD",
+                "amount": 3209
+            },
+            "surcharges": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 1191
+                    },
+                    "code": "FUEL",
+                    "name": "FUEL"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 187
+                    },
+                    "code": "RESIDENTIAL",
+                    "name": "Home Delivery"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 65
+                    },
+                    "code": "OTHER",
+                    "name": "PKS"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 29
+                    },
+                    "code": "OTHER",
+                    "name": "CBN"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 250
+                    },
+                    "code": "INSURANCE",
+                    "name": "Insurance"
+                }
+            ],
+            "taxes": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 247
+                    },
+                    "code": "TAX",
+                    "name": "GST"
+                }
+            ],
+            "totalCharge": {
+                "currency": "CAD",
+                "amount": 5178
+            },
+            "totalBeforeTaxes": {
+                "currency": "CAD",
+                "amount": 4931
+            },
+            "exchangeRate": 0.0000,
+            "carrierId": "39",
+            "carrierName": "Dicom",
+            "serviceId": "GRD",
+            "serviceName": "Ground",
+            "transitDays": 6,
+            "cutoffTime": "12:00",
+            "accessTimeInterval": "2:00",
+            "quoteId": "cf07a605fdf9914d09f0d0b7c0bd518d"
+        },
+        {
+            "baseCharge": {
+                "currency": "CAD",
+                "amount": 4802
+            },
+            "surcharges": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 1392
+                    },
+                    "code": "FUEL",
+                    "name": "Fuel surcharge"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 250
+                    },
+                    "code": "INSURANCE",
+                    "name": "Insurance"
+                }
+            ],
+            "taxes": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 322
+                    },
+                    "code": "TAX",
+                    "name": "GST"
+                }
+            ],
+            "totalCharge": {
+                "currency": "CAD",
+                "amount": 6766
+            },
+            "totalBeforeTaxes": {
+                "currency": "CAD",
+                "amount": 6444
+            },
+            "exchangeRate": 0.0000,
+            "carrierId": "24",
+            "carrierName": "Canada Post",
+            "serviceId": "DOM.RP",
+            "serviceName": "Regular Parcel",
+            "transitDays": 7,
+            "cutoffTime": "13:00",
+            "accessTimeInterval": "2:00",
+            "quoteId": "f305951cec938f9550e94fbeddb470bd"
+        },
+        {
+            "baseCharge": {
+                "currency": "CAD",
+                "amount": 5324
+            },
+            "surcharges": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 1544
+                    },
+                    "code": "FUEL",
+                    "name": "Fuel surcharge"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 250
+                    },
+                    "code": "INSURANCE",
+                    "name": "Insurance"
+                }
+            ],
+            "taxes": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 356
+                    },
+                    "code": "TAX",
+                    "name": "GST"
+                }
+            ],
+            "totalCharge": {
+                "currency": "CAD",
+                "amount": 7474
+            },
+            "totalBeforeTaxes": {
+                "currency": "CAD",
+                "amount": 7118
+            },
+            "exchangeRate": 0.0000,
+            "carrierId": "24",
+            "carrierName": "Canada Post",
+            "serviceId": "DOM.EP",
+            "serviceName": "Expedited Parcel",
+            "transitDays": 4,
+            "cutoffTime": "13:00",
+            "accessTimeInterval": "2:00",
+            "quoteId": "bf1939b1e58f3534f6ea3d6a0fa9592f"
+        },
+        {
+            "baseCharge": {
+                "currency": "CAD",
+                "amount": 18186
+            },
+            "surcharges": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 219
+                    },
+                    "code": "RESIDENTIAL",
+                    "name": "RESIDENTIAL"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 250
+                    },
+                    "code": "INSURANCE",
+                    "name": "Insurance"
+                }
+            ],
+            "taxes": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 933
+                    },
+                    "code": "TAX",
+                    "name": "GST"
+                }
+            ],
+            "totalCharge": {
+                "currency": "CAD",
+                "amount": 19588
+            },
+            "totalBeforeTaxes": {
+                "currency": "CAD",
+                "amount": 18655
+            },
+            "exchangeRate": 0.0000,
+            "carrierId": "14",
+            "carrierName": "Canpar",
+            "serviceId": "5",
+            "serviceName": "Select",
+            "transitDays": 2,
+            "cutoffTime": "14:30",
+            "accessTimeInterval": "2:00",
+            "quoteId": "94549145ffdea78467038760b564fc66"
+        },
+        {
+            "baseCharge": {
+                "currency": "CAD",
+                "amount": 15609
+            },
+            "surcharges": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 4527
+                    },
+                    "code": "FUEL",
+                    "name": "Fuel surcharge"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 250
+                    },
+                    "code": "INSURANCE",
+                    "name": "Insurance"
+                }
+            ],
+            "taxes": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 1019
+                    },
+                    "code": "TAX",
+                    "name": "GST"
+                }
+            ],
+            "totalCharge": {
+                "currency": "CAD",
+                "amount": 21405
+            },
+            "totalBeforeTaxes": {
+                "currency": "CAD",
+                "amount": 20386
+            },
+            "exchangeRate": 0.0000,
+            "carrierId": "24",
+            "carrierName": "Canada Post",
+            "serviceId": "DOM.XP",
+            "serviceName": "Xpresspost",
+            "transitDays": 2,
+            "cutoffTime": "13:00",
+            "accessTimeInterval": "2:00",
+            "quoteId": "9a783a17678005917acc718974140314"
+        },
+        {
+            "baseCharge": {
+                "currency": "CAD",
+                "amount": 18991
+            },
+            "surcharges": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 5507
+                    },
+                    "code": "FUEL",
+                    "name": "Fuel surcharge"
+                },
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 250
+                    },
+                    "code": "INSURANCE",
+                    "name": "Insurance"
+                }
+            ],
+            "taxes": [
+                {
+                    "price": {
+                        "currency": "CAD",
+                        "amount": 1237
+                    },
+                    "code": "TAX",
+                    "name": "GST"
+                }
+            ],
+            "totalCharge": {
+                "currency": "CAD",
+                "amount": 25985
+            },
+            "totalBeforeTaxes": {
+                "currency": "CAD",
+                "amount": 24748
+            },
+            "exchangeRate": 0.0000,
+            "carrierId": "24",
+            "carrierName": "Canada Post",
+            "serviceId": "DOM.PC",
+            "serviceName": "Priority",
+            "transitDays": 2,
+            "cutoffTime": "13:00",
+            "accessTimeInterval": "2:00",
+            "quoteId": "df1f7a0663f9ddf0d1027f1e8159e551"
+        }
+    ]
+}

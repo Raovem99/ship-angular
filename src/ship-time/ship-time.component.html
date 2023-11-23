@@ -1,0 +1,134 @@
+
+<div class="row">
+    <div class="container col-md-6 offset-md-4 mt-5">
+        <div class="">
+        <form [formGroup]="shipmentForm" (ngSubmit)="onSubmit()">
+                    <div style="padding-right: 200px;">
+                        <div formGroupName="originAddress">
+                            <h4 class="text-left">Origin Address</h4>
+                            <br/>
+                            <div class="mb-4">
+                                <label for="street">Address Line 1: </label>
+                                &nbsp;&nbsp;<input id="street" type="text" formControlName="addressLine1">
+                            </div>
+                          
+                             <div class="mb-1">
+                                <label for="city">City: </label> &nbsp;&nbsp;
+                                <input id="city" type="text" formControlName="city">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="city">Postal Code: </label> &nbsp;&nbsp;
+                                <input id="city" type="text" formControlName="postalCode">
+                            </div>
+                          
+                            <div class="mb-3">
+                            <label for="state">Province: </label> &nbsp;&nbsp;
+                            <input id="state" type="text" formControlName="province">
+                            </div>
+
+                            <div class="mb-3">
+                            <label for="zip">Country: </label> &nbsp;&nbsp;
+                            <input id="zip" type="text" formControlName="country">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="zip">Company Name: </label> &nbsp;&nbsp;
+                                <input id="zip" type="text" formControlName="companyName">
+                            </div>
+
+                            <div class="mb-3">
+                            <label for="zip">Phone Number: </label> &nbsp;&nbsp;
+                            <input id="zip" type="text" formControlName="phoneNumber">
+                            </div>
+
+                            <div class="mb-3">
+                            <label for="zip">Attention: </label> &nbsp;&nbsp;
+                            <input id="zip" type="text" formControlName="attention">
+                            </div>
+                          </div>
+                </div>
+                <br />
+            <br />
+
+            <div style="padding-right: 200px;">
+                <div formGroupName="destAddress">
+                    <h4 class="text-left">Destination Address</h4>
+                  <br/>
+                    <div class="mb-3">
+                    <label for="street">Address Line 1: </label> &nbsp;&nbsp;
+                    <input id="street" type="text" formControlName="addressLine1">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="city">City: </label> &nbsp;&nbsp;
+                    <input id="city" type="text" formControlName="city">
+                    </div>
+
+                    <div class="mb-3">
+                    <label for="city">Postal Code: </label> &nbsp;&nbsp;
+                    <input id="city" type="text" formControlName="postalCode">
+                    </div>
+
+                  <div class="mb-3">
+                    <label for="state">Province: </label> &nbsp;&nbsp;
+                    <input id="state" type="text" formControlName="province">
+                    </div>
+                  
+                    <div class="mb-3">
+                    <label for="zip">Country: </label> &nbsp;&nbsp;
+                    <input id="zip" type="text" formControlName="country">
+                    </div>
+
+                    <div class="mb-3">
+                    <label for="zip">Company Name: </label> &nbsp;&nbsp;
+                    <input id="zip" type="text" formControlName="companyName">
+                    </div>
+
+                    <div class="mb-3">
+                    <label for="zip">Phone Number: </label> &nbsp;&nbsp;
+                    <input id="zip" type="text" formControlName="phoneNumber">
+                    </div>
+
+                    <div class="mb-3">
+                    <label for="zip">Attention: </label> &nbsp;&nbsp;
+                    <input id="zip" type="text" formControlName="attention">
+                    </div>
+                  </div>
+            </div>
+            <div style="padding-right: 200px;">
+
+                <div class="mb-3">
+                <label for="state">Length: </label> &nbsp;&nbsp;
+                <input id="state" type="text" formControlName="length">
+               
+                <label for="zip">Width: </label> &nbsp;&nbsp;
+                <input id="zip" type="text" formControlName="width">
+                
+
+                <label for="zip">Height: </label> &nbsp;&nbsp;
+                <input id="zip" type="text" formControlName="height">
+                
+
+                <label for="zip">Weight: </label> &nbsp;
+                <input id="zip" type="text" formControlName="weight">
+                </div>
+            </div>
+            <br>
+            <br>
+            <button class="btn btn-success" type="submit">Get Rates</button>
+
+        </form>
+        </div>
+            </div>
+        </div>
+        <ngx-spinner
+            bdColor="rgba(51,51,51,0.8)"
+            size="medium"
+            color="green"
+            type="ball-scale-multiple"
+            >
+            <p style="font-size: 20px; color: white">Loading...</p>
+        </ngx-spinner>
+
+    
